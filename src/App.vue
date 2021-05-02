@@ -30,7 +30,8 @@ export default defineComponent({
       })
       panel.append(container)
       watchEffect((onInvlidate) => {
-        isShowGraphViewS.value
+        container.style.display = isShowGraphViewS.value ? 'block' : 'none'
+
         const app = createApp(D2Graph)
         let mounted = false
         if (isShowGraphViewS.value) {
