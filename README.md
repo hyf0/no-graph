@@ -1,3 +1,6 @@
+# WIP
+notion published it's own API. I'm refactoring this project using [notion official API](https://developers.notion.com/).
+
 # Introduction
 
 no-graph lets you see the connections between pages by Relationship Chart
