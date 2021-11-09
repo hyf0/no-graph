@@ -109,7 +109,7 @@ export class NotionAPI {
       const pageIds = (await this.getPages()) as Array<string>;
       const elems = await Promise.all(pageIds.map(id => this.getPageById(id)));
       return elems;
-    } catch (error) {
+    } catch (error: any) {
       handleNotionError(error);
       return [];
     }

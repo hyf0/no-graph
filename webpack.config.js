@@ -12,6 +12,7 @@ const config = {
     entry: './src/main.ts',
     output: {
         filename: 'no-graph.js',
+        libraryTarget: 'umd',
         path: path.resolve(__dirname, 'dist')
     },
     plugins: [
@@ -20,6 +21,9 @@ const config = {
           __DEV__: IS_DEV,
         }),
     ],
+    optimization: {
+      minimize: false,
+    },
     module: {
         rules: [
             {
@@ -54,6 +58,6 @@ const config = {
     },
 };
 module.exports = (env) => {
-    console.log(`当前执行${IS_DEV ? 'development' : 'production'}模式`);
+    console.log(`${IS_DEV ? 'development' : 'production'}`);
     return config;
 }
