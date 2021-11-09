@@ -27,6 +27,9 @@ Instead of using third-party API proxies, no-graph requests the official API add
     - [edge](https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlepeloendndfphd)
     - [chrome](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=zh-CN)
 
-2. [Install script](https://greasyfork.org/en/scripts/425835-no-graph)
-3. Open notion
-4. Click the checkbox in the upper left corner to turn on no-graph
+2. [Install script(deprecated)](https://twitter.com/iheyunfei/status/1457892651114455045)
+3. Install script locally
+  -  click `add new script` in tampermonkey extension
+  -  copy-paste [these codes](https://github.com/iheyunfei/no-graph/blob/main/bundle.js)
+4. Open notion
+5. Click the checkbox in the upper left corner to turn on no-graph
