@@ -1,5 +1,12 @@
-# WIP
-notion published it's own API. I'm refactoring this project using [notion official API](https://developers.notion.com/).
+# Archived
+
+The current implementation isn't in the right direction. ~I'm considering refacotring it using official API~, I'm considering rebuilding, but it takes time.
+
+There's others project related to notion I'm developing now
+
+- [notion-renderer](https://github.com/iheyunfei/notion-renderer)
+- [quipu](https://github.com/iheyunfei/quipu)
+
 
 # Introduction
 
